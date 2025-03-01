@@ -1,0 +1,14 @@
+{
+    "token": "TOKEN",
+    "prefix": "!",
+    "forum_channel_id": 1345511729492131963,
+    "starboard_channel_id": 1345516916298743848,
+    "star_threshold": 1,
+    "db": {
+        "user": "dbuser",
+        "password": "dbpassword",
+        "database": "database",
+        "host": "dbhost",
+        "port": 5432
+    }
+}
