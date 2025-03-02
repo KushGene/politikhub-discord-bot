@@ -181,7 +181,7 @@ async def update_starboard_message(message: discord.Message):
         return
 
     # Erstelle ein Embed
-    embed = discord.Embed(title="Starred Message", color=0xFFD700)
+    embed = discord.Embed(title="Top-Beitrag", color=0xFFD700)
     embed.add_field(name="Autor", value=message.author.mention, inline=True)
     embed.add_field(name="Sterne", value=str(count), inline=True)
     embed.add_field(name="Channel", value=message.channel.mention, inline=True)
